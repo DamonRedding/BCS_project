@@ -1,0 +1,345 @@
+/************
+Base font and Heders
+*************/
+
+.text--block{
+  font-size:18px ;
+  line-height: 28px;
+  color:#17313B;
+  font-family: 'Lato', sans-serif;
+}
+.text--block--padding{
+  padding: 20px;
+  max-width: 570px;
+  text-align: justify;
+}
+.textHeaders{
+  font-family: 'Open Sans', sans-serif;
+  color:#17313B;
+}
+.title--signForm{
+  text-align: center;
+}
+.main--title{
+  font-size:72px ;
+  line-height: 100px;
+}
+.project--name{
+  font-size:52px ;
+  line-height: 72px;
+}
+.h3--title{
+  font-size:36px ;
+  line-height: 52px;
+
+}
+.h4Title{
+  font-size:28px ;
+  line-height: 36px;
+
+}
+.caption{
+  font-size:12px ;
+  line-height: 18px;
+}
+
+/************
+Buttons
+*************/
+
+.initialBtn--style{
+  background-color: #17313B;
+  padding: 2px 5px;
+  border-radius: 50px;
+}
+/* .viewMore
+  position: absolute;
+  right: 50%
+  left: 50%
+  z-index:4;
+
+} */
+.closeBtn{
+  margin-top:20px;
+}
+.seeMore{
+  position:relative;
+  top: 2px;
+  left: 50%;
+  /* right: -420px; */
+}
+.centerOpenBtn{
+  text-align: center;
+}
+button{
+  margin-top: 20px;
+  padding: 10px 5px;
+  background-color: #ABC2CF;
+  text-decoration: none;
+  border-radius: 0px;
+  /* box-shadow: -51px 33px 5px 0px rgba(0,0,0,0.75);
+  transition: box-shadow 0.5s ease; */
+}
+.info--grid input{
+  max-width: 500px;
+}
+.initialBtn{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
+  position: absolute;
+  bottom:0px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  width:100%
+}
+.layout{
+  width: 100%;
+  height:100vh;
+}
+.content-wrapper{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+/************
+map
+*************/
+#map {
+        height: 100vh;
+        width: 100%;
+}
+
+.wrapper{
+  text-align: center;
+}
+
+/************
+Sections
+*************/
+section{
+  width: t:50vh;
+}
+
+/**2column grid**/
+
+.main--section{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+   min-height: 100vh;
+}
+
+/***********
+overlay
+**********/
+
+.mainDivOverlay{
+  height: 100vh;
+  position: relative;
+  background-color: #FCFCFC;
+  z-index: 1;
+  transition: transform 0.5s ease-in-out;
+  transform-origin: top;
+}
+
+.mainDivOverlay.easeClose{
+transform: translateY(-100%);
+}
+
+.overlay{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+  /*background*/
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.mainDivOverlay--hide{
+  display: none;
+
+}
+.closeBtn{
+  display: block;
+
+  left: 50%;
+  transform: translateX(-50%;);
+}
+.overlay a{
+  text-decoration: none;
+  margin-bottom:50px;
+  color:#17313B;
+  transform:
+}
+#js-closeBtn{
+  display: block;
+}
+
+/***********
+overlay menu
+**********/
+.overlayMenu{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 3;
+  background-color: rgba(252,252,252,0.5); /*dim the background*/
+  text-align: center;
+  display: block;
+  }
+/***********
+photo--grid
+**********/
+.photo--grid img{
+  width:150px;
+  height: 150px;
+  margin: 20px;
+
+}
+.photo--grid{
+  min-width:32px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  max-width: 1440px;
+}
+  .main--section--bigColumn{
+  text-align: center;
+  width: 100%;
+
+}
+.h3--title--align{
+  text-align: center;
+}
+.main--section--bigColumn p{
+  max-width: 700px;
+  text-align: justify;
+}
+.main--section--bigColumn p,
+.main--section--bigColumnRow{
+    padding:30px 30px;
+    background-color: #FCFCFC;
+}
+.main--section--smallColumnRow{
+
+    background-color: #006AA3;
+    width:20%;
+}
+.main--section--smallColumn{
+
+  height: 100%;
+}
+/***********
+formContainer
+**********/
+input{
+  margin: 0px 0px;
+  width: 300px;
+  height: 40px;
+}
+.main--section--bigColumnRow{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
+  width: 80%;
+}
+.submitButn{
+  text-align: center;
+}
+.btnSbumit{
+  width:150px;
+  border-radius: 30px;
+}
+/***********
+Sign up/in
+**********/
+.h3--title--align{
+  text-align: center;
+}
+/***********
+about this place
+**********/
+.img--grid img{
+  width:300px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+.img--grid--img1{
+
+}
+.img--grid{
+  display: flex;
+}
+.grid--radioButtons{
+  /* display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center; */
+  display: inline-block;
+}.building--class{
+  width: 300px;
+  height: 40px;
+}
+
+/***********
+add info page
+**********/
+.info--grid{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.labelText{
+  text-align: left;
+}
+.buttons--grid{
+text-align: center;
+}
+.img--grid{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/***********
+aboutProject
+**********/
+.text--block--flex{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.nav-overlay--grid{
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 1;
+    background-color: rgba(252,252,252,1);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    font-weight: bold;
+  }
+  .nav-overlay{
+    display: none;
+  }

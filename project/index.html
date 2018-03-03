@@ -1,0 +1,62 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/fab.css">
+  <link rel="stylesheet" href="css/mediaQueries.css">
+</head>
+<header>
+  <title>BCS</title>
+</header>
+
+<body>
+  <div class="initialBtn">
+    <div class="initialBtn--style" onclick="openOverlay()"><a href="aboutProject.html">about</a></div>
+    <div class="initialBtn--style" onclick="openOverlay()"><a href="aboutProject.html">addplace</a></div>
+    <div class="initialBtn--style" onclick="openOverlay()"><a href="aboutProject.html">log in</a></div>
+    <div class="initialBtn--style" onclick="openOverlay()"><a href="aboutProject.html">log out</a></div>
+  </div>
+  <div class="container-floating" >
+    <div class="fab"  onclick="showFabButton()"> + </div>
+    <div class="fab fab--1"> + </div>
+    <!-- <div class="fab fab--2"> + </div>
+      <div class="fab fab--3" > + </div> -->
+  </div>
+  <!--  Overlay section begin -->
+  <div class="mainDivOverlay" id="overlayHide">
+    <section class="overlay">
+      <div>
+        <h1 class="main--title textHeaders">Varje människa kan själv</h1>
+        <h2 class="project--name textHeaders">BECOS COM SAÍDA</h2>
+        <p class="text--block text--block--padding">Varje människa kan själv förändra sitt liv, om rätt förutsättningar finns. Här hittar du projekt där din gåva ger människor möjlighet att skapa en bättre framtid.</p>
+        <a class="aboutProject" href="aboutProject.html"> about the project</a>
+        <div class="closeBtn">
+          <button class="caption" onclick="openOverlay()"> Ready to go!</button>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="map--section" id="map"></div>
+    </section>
+  </div>
+  <!--  Overlay section end -->
+
+  <!-- map section begin -->
+
+  <!-- map section end>-->
+
+  <script src="js/app.js"></script>
+  <script src="js/map.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1dJijmc3yJJ3MMaVEOwZSJqLV-MH84es&callback=initMap" async defer></script>
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

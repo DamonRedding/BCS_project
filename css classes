@@ -1,0 +1,53 @@
+<label for="building--class">state of the building/label>
+  <select id="building--class" name="classification">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+  </select>
+
+  <input type="radio" name="classification" value="1"> 1<br>
+  <input type="radio" name="classification" value="2"> 2<br>
+  <input type="radio" name="classification" value="1"> 3<br>
+  <input type="radio" name="classification" value="2"> 4<br>
+  <input type="radio" name="classification" value="1"> 5<br>
+
+
+  main--section
+  main--section
+
+  bigColumnRow
+  main--section--bigColumnRow
+
+  bigColumn
+  main--section--bigColumn
+
+h3--title
+  h3--title
+
+h3--title--align
+  h3--title--align
+
+  buttons--grid
+  buttons--grid
+
+  smallColumnRow
+  main--section--smallColumnRow
+
+  smallColumn
+  main--section--smallColumn
+
+  photoGrid
+  photo--grid
+
+  textBlock
+  text--block
+
+  overlay
+
+  mainTitle
+  main--title
+
+  projectName
+  project--name

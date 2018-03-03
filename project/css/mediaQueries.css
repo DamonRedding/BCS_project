@@ -1,0 +1,206 @@
+/* @mobile view */
+
+@media screen and (min-width: 320px){
+  .nav-overlay--grid{
+      top: 0;
+      left: 0;
+      width: 100%;
+      min-height: 100vh;
+      z-index: 1;
+      background-color: rgba(252,252,252,1);
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+    }
+    .initialBtn a{
+      font-size: 12px;
+      line-height: 18px;
+    }
+  .form--Container input{
+    width: 80%;
+  }
+  .img--grid,
+  .info--grid {
+    width: 100%;
+  }
+  .img--grid img{
+    width: 75%;
+    height: 75%;
+    margin:5px;
+  }
+  .img--grid input,
+  .img--grid select,
+  .info--grid input{
+    width: 70%;
+  }
+
+  .mainSection{
+    display: flex;
+    max-width: 1440px;
+    justify-content: center;
+    flex-direction: row;
+    height:100vh;
+  }
+  .textBlock{
+    font-size:12px ;
+    line-height: 18px;
+  }
+  .textBlock--padding{
+    padding: 10px;
+    max-width: 350px;
+    text-align: justify;
+  }
+  .closeBtn{
+    margin-top:20px;
+  }
+  .title--signForm{
+    text-align: center;
+  }
+  .main--title{
+    font-size:18px ;
+    line-height:28px;
+  }
+  .project--name{
+    font-size:18px ;
+    line-height:36px;
+  }
+  .h3--title{
+    font-size:18px ;
+    line-height:28px;
+  }
+  .caption{
+    font-size:12px ;
+    line-height: 18px;
+  }
+  .mainDivOverlay{
+    height: 100vh;
+    position: relative;
+    background-color: #FCFCFC;
+  }
+  .textBlock--flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+  }
+  .flexgrid--img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    flex-wrap: wrap;
+  }
+}
+
+
+
+/* tablets view */
+@media screen and (min-width:768px){
+
+  .initialBtn a{
+    font-size: 18px;
+    line-height: 28x;
+  }
+
+  .nav-overlay--grid{
+      top: 0;
+      left: 0;
+      width: 100%;
+      min-height: 100vh;
+      z-index: 4;
+      background-color: rgba(252,252,252,1);
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+    }
+
+  .h3--title{
+    font-size:36px ;
+    line-height: 52px;
+  }
+  .form--Container{
+    width: auto;
+  }
+
+  .closeBtn{
+    margin-top:20px;
+  }
+  .textBlock{
+    font-size:18px ;
+    line-height: 28px;
+    max-width: 700px;
+    text-align: justify;
+  }
+  .title--signForm{
+    text-align: center;
+  }
+  .main--title{
+    font-size:28px ;
+    line-height:36px;
+  }
+  .project--name{
+    font-size:52px ;
+    line-height: 72spx;
+  }
+  .h3Title{
+    font-size:36px ;
+    line-height:52px;
+
+  }
+  .flexgrid--img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    flex-wrap: wrap;
+
+  }
+  .img--grid img{
+    width:300px;
+    height: 300px;
+    margin-right: 20px;
+  }
+
+
+}
+  @media screen and (min-width:1440px){
+    .h3--title{
+
+    }
+    .textBlock{
+      font-size:18px;
+      line-height: 28px;
+    }
+    .bigColumnRow ,
+    .main--section--smallColumnRow{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+    .textBlock--padding{
+      padding: 10px;
+      max-width: 650px;
+      text-align: justify;
+
+  }
+  .bigColumn p{
+    max-width: 100px;
+  }
+  .textBlock--flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+  }
+
+
+
+
+}

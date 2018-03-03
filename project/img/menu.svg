@@ -1,0 +1,14 @@
+<svg width="176" height="126" viewBox="0 0 176 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>menu</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(2 0 0 2 22570 22836)">
+<g id="menu">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(-11285 -11418)" fill="#FCFCFC"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 85 57L 3 57C 1.343 57 0 58.343 0 60C 0 61.657 1.343 63 3 63L 85 63C 86.657 63 88 61.657 88 60C 88 58.343 86.657 57 85 57ZM 85 29L 3 29C 1.343 29 0 30.343 0 32C 0 33.657 1.343 35 3 35L 85 35C 86.657 35 88 33.657 88 32C 88 30.343 86.657 29 85 29ZM 3 6L 85 6C 86.657 6 88 4.657 88 3C 88 1.343 86.657 0 85 0L 3 0C 1.343 0 0 1.343 0 3C 0 4.657 1.343 6 3 6Z"/>
+</defs>
+</svg>

@@ -1,0 +1,53 @@
+/***********
+FAB icon
+**********/
+.fab{
+  width: 70px;
+  height: 70px;
+  background-color: red;
+  border-radius: 50%;
+  z-index: 2;
+  background: radial-gradient(#17313B,#2194BC,#FCFCFC);
+  color:#FCFCFC;
+  /* box-shadow:0 6px 10px 0 #665;
+  transition: all 0.1s ease-in-out; */
+
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+.fab--1{
+  position: fixed;
+  right: 50px;
+  bottom: 130px;
+  transition: 0.1 ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  display: none;
+}
+.fab--1.close{
+  transform: translateY(-100%);
+
+}
+/*.fab--2{
+  position: fixed;
+  right: 50px;
+  bottom: 210px;
+  transition: 0.2 ease-in-out;
+}
+.fab--3{
+  position: fixed;
+  right: 50px;
+  bottom: 290px;
+  transition: 0.2 ease-in-out;
+} */
+.fab:hover{
+  transform: scale(1.05);
+}
+.fab-active{
+  display: block;
+}
